@@ -1,0 +1,23 @@
+{
+    // "presets": ["react-native"],
+    "plugins": [
+      [
+        "module-resolver",
+        {
+          "root": [
+            "./src"
+          ],
+        "alias": {
+           "src": "./src",
+           "images": "./src/images",
+           "data": "./src/config/data",
+           "firebaseConfig":"./src/config/firebaseConfig",
+           "url": "./src/config/url",
+           "user" : "./src/redux/user",
+          "utils" : "./src/utils",
+           "constantsComponent":"./src/constants"
+         }
+        } 
+      ] 
+    ]
+  }
